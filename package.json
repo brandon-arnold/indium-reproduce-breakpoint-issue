@@ -1,0 +1,24 @@
+{
+  "name": "indium-reproduce-breakpoint-issue",
+  "version": "1.0.0",
+  "description": "Reproduces issue with indium causing breakpoints not to set where I choose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect ./index"
+  },
+  "author": "Brandon Arnold",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.22.1",
+    "babel-preset-env": "^1.6.0",
+    "express": "4.16.0"
+  },
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-loader": "7.1.2",
+    "babel-plugin-namespaces": "0.2.4",
+    "babel-polyfill": "6.22.0"
+  }
+}

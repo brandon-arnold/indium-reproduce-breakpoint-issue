@@ -1,0 +1,9 @@
+{
+  "configurations": [
+    {
+      "name": "Node",
+      "type": "node",
+      "root": "./"
+    }
+  ]
+}

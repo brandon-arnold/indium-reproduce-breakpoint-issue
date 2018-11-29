@@ -1,0 +1,12 @@
+{
+  "compact": true,
+  "presets": ["env"],
+  "plugins": [
+    ["namespaces", {
+      "namespaces": {
+        "lib": "./lib",
+        "libFoo": "./lib/foo"
+      }
+    }]
+  ]
+}
